@@ -22,7 +22,7 @@ const GamesSection = () => {
               </div>
             ) : (
               <p className="text-center text-gray-600 italic">
-                Content coming soon!
+                Coming soon!
               </p>
             )}
           </section>
