@@ -16,7 +16,7 @@ export const games: Game[] = [
     iconType: "xo",
     link: "https://xo.navidincome.com/",
     category: "games",
-    technologies: ["Vite", "React", "TypeScript"]
+    technologies: ["React", "TypeScript", "Vite", "Tailwind"]
   },
   {
     title: "Rock Paper Scissors",
@@ -24,6 +24,6 @@ export const games: Game[] = [
     iconType: "rps",
     link: "https://rps.navidincome.com/",
     category: "games",
-    technologies: ["Vite", "React", "TypeScript"]
+    technologies: ["React", "TypeScript", "Vite", "Tailwind"]
   }
 ];

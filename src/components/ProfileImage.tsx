@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import profileImage from '../assets/images/profile.jpg';
 
 const ProfileImage = () => {
   const [imageError, setImageError] = useState(false);
@@ -6,7 +7,7 @@ const ProfileImage = () => {
 
   return (
     <img
-      src={!imageError ? "/images/profile.jpg" : fallbackImage}
+      src={!imageError ? profileImage : fallbackImage}
       alt="Developer Profile"
       className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
       onError={() => setImageError(true)}
