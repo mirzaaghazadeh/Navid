@@ -9,7 +9,7 @@ const HeroSection = () => {
         Welcome to Navid Income
       </h1>
       <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-        Discover my collection of engaging browser games and tools crafted with passion and modern web technologies.
+        Discover our collection of engaging browser games and tools crafted with passion and modern web technologies.
       </p>
     </section>
   );

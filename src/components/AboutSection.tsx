@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Twitter, Linkedin } from 'lucide-react';
 import SocialLinks from './SocialLinks';
+import profileImage from '../assets/images/profile.jpg';
 
 const AboutSection = () => {
   return (
@@ -8,7 +9,7 @@ const AboutSection = () => {
       <h2 className="text-3xl font-bold text-gray-900 mb-6">About the Developer</h2>
       <div className="bg-white rounded-lg shadow-xl p-8">
         <img
-          src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?w=500&h=500&fit=crop"
+          src={profileImage}
           alt="Developer Profile"
           className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
         />
@@ -19,6 +20,4 @@ const AboutSection = () => {
       </div>
     </section>
   );
-};
-
-export default AboutSection;
+}
