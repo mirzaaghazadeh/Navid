@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import profileImage from '../assets/images/profile.jpg';
 
 const ProfileImage = () => {
   const [imageError, setImageError] = useState(false);
+  const profileImage = "https://avatar.navid.tr/public.jpg";
   const fallbackImage = "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&q=80&w=256&h=256";
 
   return (

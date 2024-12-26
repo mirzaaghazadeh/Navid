@@ -25,5 +25,13 @@ export const games: Game[] = [
     link: "https://rps.navid.tr/",
     category: "games",
     technologies: ["React", "TypeScript", "Vite", "Tailwind"]
+  },
+  {
+    title: "CVSSv3 Calculator",
+    description: "Calculate vulnerability scores and estimate bug bounty rewards using the CVSS v3 scoring system. Essential tool for security researchers and bug hunters.",
+    iconType: "xo",
+    link: "https://cvss.navid.tr/",
+    category: "hacker",
+    technologies: ["React", "TypeScript", "Vite", "Tailwind", "shadcn/ui"]
   }
 ];

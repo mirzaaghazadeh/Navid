@@ -11,8 +11,13 @@ export const categories: Category[] = [
     description: 'Interactive games and applications showcasing my development skills'
   },
   {
+    id: 'hacker',
+    title: 'Hackers Tools',
+    description: 'Security and penetration testing tools for ethical hacking'
+  },
+  {
     id: 'tools',
-    title: 'Developer Tools',
+    title: 'Developers Tools',
     description: 'Utilities and tools I\'ve created to improve development workflows'
   }
 ];
