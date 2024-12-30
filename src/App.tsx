@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from './components/HeroSection';
 import ProjectsShowcase from './components/GamesSection';
 import AboutSection from './components/AboutSection';
+import ArticlesSection from './components/Articles';
 import TechStackButton from './components/TechStack/TechStackButton';
 import EmailProtection from './components/EmailProtection';
 
@@ -11,6 +12,7 @@ function App() {
       <main className="container mx-auto px-4 py-12">
         <HeroSection />
         <ProjectsShowcase />
+        <ArticlesSection />
         <AboutSection />
       </main>
       <div className="text-center py-8 text-gray-600">

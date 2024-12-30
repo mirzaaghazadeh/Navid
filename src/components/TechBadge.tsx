@@ -11,6 +11,7 @@ const TechBadge: React.FC<TechBadgeProps> = ({ name }) => {
       typescript: 'bg-blue-600/10 text-blue-700',
       vite: 'bg-purple-500/10 text-purple-600',
       tailwind: 'bg-teal-500/10 text-teal-600',
+      'shadcn/ui': 'bg-slate-500/10 text-slate-600',
       default: 'bg-gray-500/10 text-gray-700'
     };
     
@@ -39,7 +40,8 @@ const getTechDescription = (tech: string): string => {
     React: 'A JavaScript library for building user interfaces',
     TypeScript: 'JavaScript with syntax for types',
     Vite: 'Next generation frontend tooling',
-    Tailwind: 'A utility-first CSS framework'
+    Tailwind: 'A utility-first CSS framework',
+    'shadcn/ui': 'Re-usable UI components built with Radix UI and Tailwind'
   };
   
   return descriptions[tech] || tech;
