@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Article, PaginationState } from '../types/article';
-import { fetchMediumArticles } from '../utils/medium';
+import { fetchMediumArticles } from '../components/Articles/utils';
 
 const ITEMS_PER_PAGE = 5;
 

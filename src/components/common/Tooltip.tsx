@@ -7,9 +7,9 @@ interface TooltipProps {
 
 const Tooltip: React.FC<TooltipProps> = ({ content, children }) => {
   return (
-    <div className="relative group">
+    <div className="relative group/tooltip">
       {children}
-      <div className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+      <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 opacity-0 group-hover/tooltip:opacity-100 transition-opacity duration-200 pointer-events-none z-50">
         <div className="bg-gray-900 text-white text-xs px-2 py-1 rounded whitespace-nowrap">
           {content}
         </div>

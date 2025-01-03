@@ -1,7 +1,7 @@
 import React from 'react';
-import { XSquare, Hand, LucideIcon } from 'lucide-react';
+import { Globe, XSquare, Hand, LucideIcon } from 'lucide-react';
 
-export type GameIconType = 'xo' | 'rps';
+export type GameIconType = 'xo' | 'rps' | 'domain';
 
 interface GameIconProps {
   type: GameIconType;
@@ -11,6 +11,7 @@ interface GameIconProps {
 const iconMap: Record<GameIconType, LucideIcon> = {
   xo: XSquare,
   rps: Hand,
+  domain: Globe,
 };
 
 const GameIcon: React.FC<GameIconProps> = ({ type, className }) => {

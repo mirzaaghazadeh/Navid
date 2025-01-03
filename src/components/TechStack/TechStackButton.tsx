@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2 } from 'lucide-react';
+import { Code2, Github } from 'lucide-react';
 import { techStackData } from '../../config/techStack';
 
 const TechStackButton = () => {
@@ -30,6 +30,18 @@ const TechStackButton = () => {
             </div>
           </div>
         ))}
+        
+        <div className="mt-4 pt-4 border-t border-gray-800">
+          <a
+            href="https://github.com/mirzaaghazadeh/Navid"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+          >
+            <Github className="w-4 h-4" />
+            <span className="text-sm">View Source</span>
+          </a>
+        </div>
       </div>
     </div>
   );

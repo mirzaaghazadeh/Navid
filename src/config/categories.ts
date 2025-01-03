@@ -6,9 +6,9 @@ export interface Category {
 
 export const categories: Category[] = [
   {
-    id: 'games',
-    title: 'Featured Projects',
-    description: 'Interactive games and applications showcasing my development skills'
+    id: 'tools',
+    title: 'Developers Tools',
+    description: 'Utilities and tools I\'ve created to improve development workflows'
   },
   {
     id: 'hacker',
@@ -16,8 +16,8 @@ export const categories: Category[] = [
     description: 'Security and penetration testing tools for ethical hacking'
   },
   {
-    id: 'tools',
-    title: 'Developers Tools',
-    description: 'Utilities and tools I\'ve created to improve development workflows'
+    id: 'games',
+    title: 'Games',
+    description: 'Interactive games showcasing my development skills'
   }
 ];
